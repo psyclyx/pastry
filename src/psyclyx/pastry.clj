@@ -35,11 +35,11 @@
   {::plugin/name ::component-plugin
    ::plugin/doc "A donut.system plugin that transforms component-level targets into donut.system components.
 
-Requires two top-level keys:
+Configurable via keys in the system map:
 - `::->component`: Function taking a target and returning a donut.system
-  component map.
+  component map (defaults to `psyclyx.pastry/->component`)
 - `::target?`: Predicate identifying component-level values to be transformed
-    with `::->component` (defaults to maps with `:psyclyx.pastry/type`). "
+  with `::->component` (defaults to maps with `:psyclyx.pastry/type`). "
    ::plugin/system-defaults {::->component ->component
                              ::target? -pastry-target?}
    ::plugin/system-update -merge-components})
