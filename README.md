@@ -79,8 +79,5 @@ For more flexibility, the target predicate and transformation function can be co
 
 Issues and pull requests welcome!
 
-## Copyright
-
-Copyright (c) 2025 psyclyx
-
-Released under the MIT license.
+## (Un)license
+This is free and unencumbered software released into the public domain.
