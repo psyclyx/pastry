@@ -1,4 +1,7 @@
 # pastry
+![Tests](https://github.com/psyclyx/pastry/workflows/Tests/badge.svg?cache-control=no-cache)
+[![Clojars Project](https://img.shields.io/clojars/v/xyz.psyclyx/pastry?cache-control=no-cache)](https://clojars.org/xyz.psyclyx/pastry)
+[![cljdoc badge](https://cljdoc.org/badge/xyz.psyclyx/pastry?cache-control=no-cache)](https://cljdoc.org/d/xyz.psyclyx/pastry)
 
 A `donut.system` plugin for transforming declarative definitions into components.
 
