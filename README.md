@@ -10,20 +10,20 @@ This library is a proof of concept. Use at your own risk. Issues and PRs are wel
 
 ## Installation
 
-**Latest version**: `0.0.1` (tag `v0.0.1`)
+**Latest version**: `0.0.11` (tag `v0.0.11`)
 
 ### Clojars
 
 #### deps.edn
 
 ```clojure
-xyz.psyclyx/pastry {:mvn/version "0.0.1"}
+xyz.psyclyx/pastry {:mvn/version "0.0.11"}
 ```
 
 #### Leiningen/Boot
 
 ```clojure
-[xyz.psyclyx/pastry "0.0.1"]
+[xyz.psyclyx/pastry "0.0.11"]
 ```
 
 ## Usage
